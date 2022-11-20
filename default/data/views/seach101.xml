@@ -1,0 +1,20 @@
+<form version="1.1">
+  <label>Seach101</label>
+  <fieldset submitButton="false"></fieldset>
+  <row>
+    <panel>
+      <input type="text" token="field1">
+        <label>field1</label>
+      </input>
+      <event>
+        <title>Test</title>
+        <search>
+          <query>index=network</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="list.drilldown">none</option>
+      </event>
+    </panel>
+  </row>
+</form>
