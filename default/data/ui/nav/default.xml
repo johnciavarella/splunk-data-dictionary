@@ -1,0 +1,7 @@
+<nav search_view="search">
+  <view name="ddoverview" default='true' />
+  <view name="dd-overview" />
+  <view name="dd-datamodel" />
+  <view name="dd-datain" />
+  <view name="dashboards" />
+</nav>

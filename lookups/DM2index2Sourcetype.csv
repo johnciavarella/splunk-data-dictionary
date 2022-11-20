@@ -1,0 +1,11 @@
+datamodel,index,sourcetype
+,"docker_applogs",json
+,homeassistant,homeassistant
+,main,"proxmox_metric"
+,main,ps
+,main,syslog
+,network,ubnt
+,network,"ubnt:fw"
+,nix,syslog
+,"proxmox_metrics","proxmox_metric"
+,storage,synology

@@ -1,0 +1,8 @@
+"Data Model",index,sourcetype
+Performance,main,ps
+Authentication,main,syslog
+Change,network,"ubnt:dhcp"
+"Network_Traffic",network,"ubnt:fw"
+"Intrusion_Detection",network,"ubnt:threat"
+Authentication,nix,syslog
+Authentication,windows,XmlWinEventLog

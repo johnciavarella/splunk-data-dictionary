@@ -1,0 +1,24 @@
+[app/ui]
+version = 9.0.2
+modtime = 1668404243.130872000
+
+[app/launcher]
+version = 9.0.2
+modtime = 1668404243.135347000
+
+[]
+access = read : [ * ], write : [ admin, power ]
+export = system
+version = 9.0.2
+modtime = 1668404253.417532000
+
+[views/ddoverview]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 9.0.2
+modtime = 1668881273.514001000
+
+[nav/default]
+version = 9.0.2
+modtime = 1668880822.089078000
