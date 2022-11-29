@@ -46,7 +46,7 @@ White logo, green >
     background-image: url(appLogo_white.png);
 White logo, white >
     background-image: url(appLogo_allwhite.png);
-
+    
 For IE6, use the following images. Note that if you make a background color other than black or white (or close to it) you will need to redo the transparent GIF matte.
 White logo, green > for IE6, transparent against black
     background-image: url(appLogo_white.gif);
@@ -55,7 +55,7 @@ Black logo, green > for IE6, transparent against white
 */
 
 .appLogo {
-    height: 43px;
+    height: 43px; 
     width: 81px;
     background-image: url(appLogo_white.png);
     _background-image: url(appLogo_white.gif); /* for IE6 */
@@ -102,7 +102,7 @@ background-position: ;
 }
 
 
-/* link colors
+/* link colors 
 ---------------------------------*/
 a {
     color: ;
@@ -198,12 +198,12 @@ ul.appBarNav li.hasMenu a:hover, ul.appBarNav li a.menuOpen {
 }
 .splMenu-secondary li.disabled a {
     color: ;
-}
+}   
 .splMenu-secondary li:hover {
     background-color: ;
 }
 .splMenu-secondary a:hover {
-    color: ;
+    color: ;   
 }
 
 /* actions menu open state */
@@ -213,7 +213,7 @@ ul.appBarNav li.hasMenu a:hover, ul.appBarNav li a.menuOpen {
 }
 
 
-/*
+/* 
 Arrow color is changed by adjusting background position. use the following values for these colors:
     grey: background-position: -7px -367px;
     white: background-position: -27px -367px;
@@ -242,9 +242,9 @@ ul.appBarNav li.hasMenu a.menuOpen span.splIcon-triangle-2-s {
 ---------------------------------*/
 
 /* default page color */
-body, .splBackground-default,
-.graphArea, .resultsArea,
-.reportSecondPanel, .reportThirdPanel,
+body, .splBackground-default, 
+.graphArea, .resultsArea,  
+.reportSecondPanel, .reportThirdPanel, 
 .sidebarCollapsed,
 .SearchBar .saTypeaheadWrapper,
 .ui-datepicker-links,
@@ -282,13 +282,13 @@ body.splTemplate-dashboard {
 
 /* dashboard containers */
 .dashboardCell {
-    background-color: ;
+    background-color: ; 
     background-image:url(overlay_topgradient.png);
     background-repeat:repeat-x;
     _background-image: none;   /* for IE6 */
 }
 
-/* headers
+/* headers 
 ---------------------------------*/
 
 /* default header font color */
@@ -298,7 +298,7 @@ body.splTemplate-dashboard {
 
 /* primary header background color + overlay */
 .splHeader-primary,
-.TitleBar .splHeader,
+.TitleBar .splHeader, 
 .FieldPickerPopup .splHeader-primary {
     background-color: ;
 background-image:url(overlay_topgradient.png);
@@ -320,28 +320,28 @@ _background-image: none;
     background-image: none;
 }
 
-/* borders
+/* borders 
 ---------------------------------*/
 
 /* ALL elements with a generic border attribute */
-* {
+* { 
 border-color: #c3cbd4;
 }
 
-/* refactor to remove these in default.css since they have specific color declarations; should be same value as * elements, above */
-.splMenu-primary ul,
+/* refactor to remove these in default.css since they have specific color declarations; should be same value as * elements, above */ 
+.splMenu-primary ul, 
 .splMenu-secondary ul,
-.Paginator a:hover {
+.Paginator a:hover { 
 border-color: ;
 }
 
-/* specific overrides */
+/* specific overrides */ 
 
 .fieldValuePopup table tr.fieldNameHeaderRow th {
 border-bottom:1px solid #c3cbd4;
 }
 
-/* horixontal rules in the sidebar */
+/* horixontal rules in the sidebar */ 
 .splDivider, .SuggestedFieldViewer .splBorder-n {
 border-color: #c3cbd4;
 }
@@ -349,13 +349,13 @@ border-color: #c3cbd4;
 
 
 
-/* search controls
+/* search controls 
 ---------------------------------*/
 
 /* search button color; background-position of 0 0 is black, -40px 0 is white */
 input.searchButton {
     background-color: ;
-    background-position:-40px 0;
+    background-position:-40px 0;   
 }
 
 .SearchBar .assistantActivator {
@@ -364,7 +364,7 @@ background-color: ;
 
 
 
-/* Flash timeline and charts
+/* Flash timeline and charts 
 ---------------------------------*/
 
 /* All flash charts */
@@ -393,7 +393,7 @@ div.FlashTimeline {
     border-left-color: ;
     color: ;
     /* the color of the histogram bar. border-right-color = fill */
-    border-right-color: ;
+    border-right-color: ; 
 }
 
 /* popup bar chart; should be same color as flash timeline */
@@ -404,22 +404,22 @@ background-color:;
 
 
 
-/* buttons
+/* buttons 
 ---------------------------------*/
 
 .splButton-primary {
-    background-color: ;
+    background-color: ;   
     color: ;
 }
 .splButton-primary:hover {
-    background-color: ;
+    background-color: ;   
 }
 .splButton-secondary {
     background-color:;
-    color: ;
+    color: ;   
 }
 .splButton-secondary:hover {
-    background-color: ;
+    background-color: ;   
 }
 
 /* form elements
@@ -457,10 +457,10 @@ border-color: transparent;
 color: ;
 }
 
-/* Icons
+/* Icons 
 ---------------------------------*/
 .splIcon-events-list, .splIcon-events-table, .splIcon-results-table {
-/*--
+/*-- 
 master icon file. edit the local file and include this stanza if you want to override the defaults
 background-image: url(splIcons.gif);
 
@@ -495,25 +495,25 @@ div.FlashTimeline a.logScaleSelected span, div.FlashTimeline a.linScaleSelected 
 }
 
 /* triangles. keep this last to avoid getting background colors in the arrows! */
-/* Note: to separate color from implementation, we're using a numbering system to differentiate colors.
+/* Note: to separate color from implementation, we're using a numbering system to differentiate colors.  
    1=grey,2=white,3=green,4=black,5=blue.  If the icon sprite changes, the number mapping to colors would be different */
-.splIcon-triangle,
+.splIcon-triangle, 
 .splIcon-triangle-1-n, .splIcon-triangle-1-s, .splIcon-triangle-1-e, .splIcon-triangle-1-w,
 .splIcon-triangle-2-n, .splIcon-triangle-2-s, .splIcon-triangle-2-e, .splIcon-triangle-2-w,
 .splIcon-triangle-3-n, .splIcon-triangle-3-s, .splIcon-triangle-3-e, .splIcon-triangle-3-w,
 .splIcon-triangle-4-n, .splIcon-triangle-4-s, .splIcon-triangle-4-e, .splIcon-triangle-4-w,
 .splIcon-triangle-5-n, .splIcon-triangle-5-s, .splIcon-triangle-5-e, .splIcon-triangle-5-w {
-    background-color:transparent;
+    background-color:transparent;   
 }
 .splIcon-triangle-large {
-    background-color:transparent;
+    background-color:transparent;  
 }
 
 
 /* tables
 ------------------------------*/
 table.splTable {
-    border-color: ;
+    border-color: ;   
 }
 table.splTable th {
     border-color: ;
@@ -527,7 +527,7 @@ table.splTable td {
 
 
 
-/* highlight colors
+/* highlight colors 
 ---------------------------------*/
 /*-- event items --*/
 .EventsViewer .default .a, .EventsViewer .default .h, .EventsViewer .default .fields .v:hover, .EventsViewer .default .fields .tg:hover {
@@ -562,7 +562,7 @@ table.splTable tr:hover td {
 
 
 
-/* date picker
+/* date picker 
 ---------------------------------*/
 .ui-datepicker-current-day {
     background-color: ;
@@ -571,9 +571,9 @@ table.splTable tr:hover td {
 .ui-datepicker-links {
     background-image: url(overlay_gradient.png) repeat-x 0 0;
     _background-image: none;
-}
+} 
 
-/* popups
+/* popups 
 ---------------------------------*/
 .splHeader-popup {
     background-color: #000;
@@ -583,7 +583,7 @@ table.splTable tr:hover td {
 }
 
 .splHeader-popup h2 {
-    color:#FFF;
+    color:#FFF; 
 }
 
 .popupContainer {
@@ -592,15 +592,15 @@ border-color: ;
 
 /* modal overlay */
 .splOverlay, .splOverlay-white {
-    background-color: #000;
+    background-color: #000;    
     opacity:0.8;
     filter:alpha(opacity=80);
 }
 .splOverlay-white {
-    background-color:#FFF;
+    background-color:#FFF;  
 }
 
-/* Misc
+/* Misc 
 ---------------------------------*/
 
 /* resize handle */
@@ -612,7 +612,7 @@ background-color:#c3cbd4 !important;
 .JobStatus .output .running h2,
 .JobStatus .output .runningReport h2,
 .JobStatus .output .finalizing h2 {
-/*
+/* 
 loader background must match the same color as the background of your output div. leave blank to use the default loader, or download a custom image from www.ajaxload.info, name it loader.gif and include this line:
 
 background-image: url(loader.gif);

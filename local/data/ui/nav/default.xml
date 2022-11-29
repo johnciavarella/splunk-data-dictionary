@@ -1,11 +1,16 @@
 <nav search_view="search">
   <view name="overview" default='true' />
-  <view name="ddoverview"/>
+
   <view name="data_explorer" />
-  <view name="data_models" />
-  <view name="sourcetype" />
-  <view name="searches" />  
-  <view name="useful_links_and_guides" />  
-  <view name="resources" />  
+  <collection label="Data and Searches">
+    <view name="ddoverview"/>
+    <view name="data_models" />
+    <view name="sourcetype" />
+    <view name="searches" />  
+  </collection>
+  <collection label="External Resources">
+    <view name="useful_links_and_guides" />  
+    <view name="resources" />  
+  </collection>
   <view name="dashboards" />
 </nav>
